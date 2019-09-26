@@ -1,1 +1,1 @@
-from lemkelcp import lemkelcp
+from .lemkelcp import lemkelcp

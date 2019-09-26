@@ -5,8 +5,8 @@ class lemketableau:
         n = len(q)
         self.T = np.hstack((np.eye(n),-M,-np.ones((n,1)),q.reshape((n,1))))
         self.n = n
-        self.wPos = range(n)
-        self.zPos = range(n,2*n)
+        self.wPos = np.arange(n)
+        self.zPos = np.arange(n,2*n)
         self.W = 0
         self.Z = 1
         self.Y = 2
